@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DBd-mM-eBZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TPE2SFOiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="fr4-vL-Ig6">
+                                <rect key="frame" x="24" y="629" width="327" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovp-oq-zbb">
+                                        <rect key="frame" x="0.0" y="0.0" width="158.5" height="30"/>
+                                        <state key="normal" title="買衣服"/>
+                                        <connections>
+                                            <segue destination="yUg-p0-LbF" kind="show" id="ZGC-pK-N3T"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuT-Rz-NF2">
+                                        <rect key="frame" x="168.5" y="0.0" width="158.5" height="30"/>
+                                        <state key="normal" title="賣"/>
+                                        <connections>
+                                            <segue destination="TR9-ug-9J5" kind="show" id="smd-Gl-OpK"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84809208312835649" green="0.8139655518391935" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fr4-vL-Ig6" secondAttribute="trailing" constant="8" id="AVU-KS-jU6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fr4-vL-Ig6" secondAttribute="bottom" constant="8" id="idS-oh-egs"/>
+                            <constraint firstItem="fr4-vL-Ig6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="yyy-LR-26w"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Fvm-Vt-mo7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="234" y="6"/>
+        </scene>
+        <!--賣-->
+        <scene sceneID="a0h-yb-luT">
+            <objects>
+                <viewController title="賣" id="TR9-ug-9J5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LHH-M0-IhR"/>
+                        <viewControllerLayoutGuide type="bottom" id="fzX-33-01E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IQ4-7I-WQc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="掃描QRcode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dfX-aE-7Hq">
+                                <rect key="frame" x="139" y="323" width="96" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dfX-aE-7Hq" firstAttribute="centerX" secondItem="IQ4-7I-WQc" secondAttribute="centerX" id="4Lg-gu-4lg"/>
+                            <constraint firstItem="dfX-aE-7Hq" firstAttribute="centerY" secondItem="IQ4-7I-WQc" secondAttribute="centerY" id="Hbm-H5-ofb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V9h-fi-irL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="-236"/>
+        </scene>
+        <!--買衣服-->
+        <scene sceneID="Nap-Xs-6bt">
+            <objects>
+                <viewController title="買衣服" id="yUg-p0-LbF" customClass="CollectionVC" customModule="TPE2SFOiPhone" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JU6-pg-1bm"/>
+                        <viewControllerLayoutGuide type="bottom" id="ixQ-eH-rAM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wgF-VS-sPs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dk9-We-HZt">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="f8K-w4-ZkG">
+                                    <size key="itemSize" width="150" height="150"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="9oz-CS-mZg" customClass="CollectionViewCell" customModule="TPE2SFOiPhone" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="150" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYj-O3-ROh">
+                                                    <rect key="frame" x="16" y="109" width="118" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.84754790229999999" green="0.53485182080000004" blue="0.93773915819999998" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="LYj-O3-ROh" secondAttribute="trailing" constant="8" id="THu-r5-Hvb"/>
+                                            <constraint firstItem="LYj-O3-ROh" firstAttribute="leading" secondItem="9oz-CS-mZg" secondAttribute="leadingMargin" constant="8" id="b8u-Lz-eSY"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="LYj-O3-ROh" secondAttribute="bottom" constant="12" id="uVe-dD-8m4"/>
+                                        </constraints>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dk9-We-HZt" firstAttribute="leading" secondItem="wgF-VS-sPs" secondAttribute="leading" id="ECJ-DL-7an"/>
+                            <constraint firstItem="dk9-We-HZt" firstAttribute="top" secondItem="JU6-pg-1bm" secondAttribute="bottom" id="gTw-VU-KAH"/>
+                            <constraint firstAttribute="trailing" secondItem="dk9-We-HZt" secondAttribute="trailing" id="hqY-Gv-CwX"/>
+                            <constraint firstItem="ixQ-eH-rAM" firstAttribute="top" secondItem="dk9-We-HZt" secondAttribute="bottom" id="pBA-bf-z4O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collcetionView" destination="dk9-We-HZt" id="e3V-1J-x6J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z0P-CR-8U4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1077.5999999999999" y="447.52623688155927"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="x9q-pp-055">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DBd-mM-eBZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RJp-dI-BuC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RDo-Pp-kb4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9u-Df-QuN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-535.20000000000005" y="5.8470764617691158"/>
+        </scene>
+    </scenes>
+</document>
