@@ -29,6 +29,8 @@
 		E707A67E1F2CAEE3001C69F0 /* ClothObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A67D1F2CAEE3001C69F0 /* ClothObject.swift */; };
 		E707A67F1F2CAEE3001C69F0 /* ClothObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A67D1F2CAEE3001C69F0 /* ClothObject.swift */; };
 		E707A6801F2CAEE3001C69F0 /* ClothObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A67D1F2CAEE3001C69F0 /* ClothObject.swift */; };
+		E707A6811F2D7F26001C69F0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56D9E2E1F2D566100AE7A90 /* apikey.plist */; };
+		E707A6821F2D7F27001C69F0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56D9E2E1F2D566100AE7A90 /* apikey.plist */; };
 		E71F933F1F2C651A0087AE19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F933E1F2C651A0087AE19 /* AppDelegate.swift */; };
 		E71F93411F2C651A0087AE19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71F93401F2C651A0087AE19 /* ViewController.swift */; };
 		E71F93441F2C651A0087AE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71F93421F2C651A0087AE19 /* Main.storyboard */; };
@@ -343,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71F93491F2C651B0087AE19 /* LaunchScreen.storyboard in Resources */,
+				E707A6811F2D7F26001C69F0 /* apikey.plist in Resources */,
 				E71F93461F2C651A0087AE19 /* Assets.xcassets in Resources */,
 				E71F93441F2C651A0087AE19 /* Main.storyboard in Resources */,
 			);
@@ -353,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71F935F1F2C654B0087AE19 /* LaunchScreen.storyboard in Resources */,
+				E707A6821F2D7F27001C69F0 /* apikey.plist in Resources */,
 				E71F935C1F2C654B0087AE19 /* Assets.xcassets in Resources */,
 				E71F935A1F2C654B0087AE19 /* Main.storyboard in Resources */,
 			);
