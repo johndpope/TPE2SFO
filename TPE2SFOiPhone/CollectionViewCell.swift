@@ -10,4 +10,8 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var clothImageView: UIImageView!
+    
+    @IBOutlet weak var label: UILabel!
+   
 }

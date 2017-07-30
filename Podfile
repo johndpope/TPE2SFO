@@ -21,6 +21,7 @@ target 'TPE2SFOiPad' do
   pod 'SwiftyJSON'
 
   pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'Material'
 end
 
 target 'TPE2SFOiPhone' do
@@ -32,4 +33,5 @@ target 'TPE2SFOiPhone' do
   pod 'SwiftyJSON'
 
   pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'Material'
 end

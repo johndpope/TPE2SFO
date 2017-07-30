@@ -9,12 +9,11 @@
 /* Begin PBXBuildFile section */
 		0E697F96507D3BF093DA74C4 /* Pods_TPE2SFOiPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C07334045B040B3EF9F3D9 /* Pods_TPE2SFOiPhone.framework */; };
 		83989D17DDC19544F5EB9D94 /* Pods_TPE2SFOiPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 823D49E70E5AD022AAAE432D /* Pods_TPE2SFOiPad.framework */; };
+		D56D9E2F1F2D566100AE7A90 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = D56D9E2E1F2D566100AE7A90 /* apikey.plist */; };
+		D56D9E311F2D689500AE7A90 /* ClothCollecitonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D9E301F2D689500AE7A90 /* ClothCollecitonVC.swift */; };
 		E707A6661F2C6C20001C69F0 /* GetPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A6651F2C6C20001C69F0 /* GetPhotoVC.swift */; };
 		E707A6671F2C6C20001C69F0 /* GetPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A6651F2C6C20001C69F0 /* GetPhotoVC.swift */; };
 		E707A6681F2C6C20001C69F0 /* GetPhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A6651F2C6C20001C69F0 /* GetPhotoVC.swift */; };
-		E707A66A1F2C7031001C69F0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E707A6691F2C7031001C69F0 /* apikey.plist */; };
-		E707A66B1F2C7031001C69F0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E707A6691F2C7031001C69F0 /* apikey.plist */; };
-		E707A66C1F2C7031001C69F0 /* apikey.plist in Resources */ = {isa = PBXBuildFile; fileRef = E707A6691F2C7031001C69F0 /* apikey.plist */; };
 		E707A66E1F2C74D2001C69F0 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A66D1F2C74D2001C69F0 /* CollectionVC.swift */; };
 		E707A66F1F2C74D2001C69F0 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A66D1F2C74D2001C69F0 /* CollectionVC.swift */; };
 		E707A6701F2C74D2001C69F0 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E707A66D1F2C74D2001C69F0 /* CollectionVC.swift */; };
@@ -55,9 +54,10 @@
 		3ED4C39EFFD7AC4AC45A702A /* Pods-TPE2SFOiPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPE2SFOiPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPE2SFOiPad/Pods-TPE2SFOiPad.release.xcconfig"; sourceTree = "<group>"; };
 		4D7E834621FF0FEFBC5290BB /* Pods-TPE2SFO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPE2SFO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPE2SFO/Pods-TPE2SFO.debug.xcconfig"; sourceTree = "<group>"; };
 		823D49E70E5AD022AAAE432D /* Pods_TPE2SFOiPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPE2SFOiPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56D9E2E1F2D566100AE7A90 /* apikey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apikey.plist; sourceTree = "<group>"; };
+		D56D9E301F2D689500AE7A90 /* ClothCollecitonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothCollecitonVC.swift; sourceTree = "<group>"; };
 		DA97693CD4F2AB950B72CC3D /* Pods_TPE2SFO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPE2SFO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E707A6651F2C6C20001C69F0 /* GetPhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetPhotoVC.swift; sourceTree = "<group>"; };
-		E707A6691F2C7031001C69F0 /* apikey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apikey.plist; sourceTree = "<group>"; };
 		E707A66D1F2C74D2001C69F0 /* CollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		E707A6711F2C771B001C69F0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E707A6751F2CAC40001C69F0 /* ClothTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothTableVC.swift; sourceTree = "<group>"; };
@@ -178,6 +178,7 @@
 				E71F93601F2C654B0087AE19 /* Info.plist */,
 				E707A6791F2CAD08001C69F0 /* ClothTableViewCell.swift */,
 				E707A67D1F2CAEE3001C69F0 /* ClothObject.swift */,
+				D56D9E301F2D689500AE7A90 /* ClothCollecitonVC.swift */,
 			);
 			path = TPE2SFOiPad;
 			sourceTree = "<group>";
@@ -207,7 +208,7 @@
 		E7CB2FD21F2C44FD002420DD /* TPE2SFO */ = {
 			isa = PBXGroup;
 			children = (
-				E707A6691F2C7031001C69F0 /* apikey.plist */,
+				D56D9E2E1F2D566100AE7A90 /* apikey.plist */,
 				E707A6641F2C6B9D001C69F0 /* GoogleVision */,
 				E7CB2FE51F2C47CA002420DD /* TPE2SFO.entitlements */,
 				E7CB2FD31F2C44FD002420DD /* AppDelegate.swift */,
@@ -342,7 +343,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71F93491F2C651B0087AE19 /* LaunchScreen.storyboard in Resources */,
-				E707A66B1F2C7031001C69F0 /* apikey.plist in Resources */,
 				E71F93461F2C651A0087AE19 /* Assets.xcassets in Resources */,
 				E71F93441F2C651A0087AE19 /* Main.storyboard in Resources */,
 			);
@@ -353,7 +353,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71F935F1F2C654B0087AE19 /* LaunchScreen.storyboard in Resources */,
-				E707A66C1F2C7031001C69F0 /* apikey.plist in Resources */,
 				E71F935C1F2C654B0087AE19 /* Assets.xcassets in Resources */,
 				E71F935A1F2C654B0087AE19 /* Main.storyboard in Resources */,
 			);
@@ -364,7 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7CB2FDE1F2C44FD002420DD /* LaunchScreen.storyboard in Resources */,
-				E707A66A1F2C7031001C69F0 /* apikey.plist in Resources */,
+				D56D9E2F1F2D566100AE7A90 /* apikey.plist in Resources */,
 				E7CB2FDB1F2C44FD002420DD /* Assets.xcassets in Resources */,
 				E7CB2FD91F2C44FD002420DD /* Main.storyboard in Resources */,
 			);
@@ -531,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E707A6741F2C771B001C69F0 /* CollectionViewCell.swift in Sources */,
+				D56D9E311F2D689500AE7A90 /* ClothCollecitonVC.swift in Sources */,
 				E707A6681F2C6C20001C69F0 /* GetPhotoVC.swift in Sources */,
 				E707A6781F2CAC40001C69F0 /* ClothTableVC.swift in Sources */,
 				E71F93571F2C654B0087AE19 /* ViewController.swift in Sources */,

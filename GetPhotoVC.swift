@@ -41,6 +41,7 @@ class GetPhotoVC: UIViewController , UIImagePickerControllerDelegate , UINavigat
         picker.delegate = self
         picker.sourceType = .camera
         picker.cameraCaptureMode = .photo
+        picker.cameraOverlayView = UIImageView(image:#imageLiteral(resourceName: "cut-2"))
         present(picker, animated: true)
     }
     @IBAction func chooseImage(_ sender: Any) {
