@@ -94,7 +94,7 @@ class GetPhotoVC: UIViewController , UIImagePickerControllerDelegate , UINavigat
     func updateText(json : JSON){
 
         let jsonArray = json["responses"][0]["labelAnnotations"].arrayValue
-        var detectS = "detect : \n"
+        var detectS = ""
         for item in jsonArray {
             let des = item["description"].stringValue
             detectS.append(des)
@@ -104,11 +104,11 @@ class GetPhotoVC: UIViewController , UIImagePickerControllerDelegate , UINavigat
         textView.text = detectS
         for item in jsonArray {
             if item["description"].stringValue == "t shirt" {
-                lightLED(bool: true)
+//              lightLED(bool: true)
                 return
             }
         }
-        lightLED( bool : false)
+//        lightLED( bool : false)
         
     }
     
