@@ -8,14 +8,14 @@
 - Open TPE2SFO.xcworkspace.
 - Create apikey.plist and add your google vision api key in apikey.plist with key "GoogleVisionApiKey".
 - Select target "TPE2SFOiPad" and run.
-> This project only work on real device not simulator, becase it need camara. :)
+> This project only work on real device not a simulator, because it need cameras. :)
 - Select "I want to sell the cloth".
 - Select "I'd like to put anthoer one".
-- Take photo and app will upload photo to google vision to detect cloth label.
-- You can take another photo to detect. Finally select "Complete the process" to see the detected list.
+- Take a photo and the app will upload photo to google vision to detect cloth label.
+- You can take another photo to detect. Finally, select "Complete the process" to see the detected list.
 
 ## Setup linkit 7688 
-I disable interact with 7688 on line:107 and line:111 in GetPhotoVC.swift. If you want to interact with 7688. Make sure 7688 and iPad in the some subnet that iPad can find 7688 otherwise it don't work.
+I disable interact with 7688 on line:107 and line:111 in GetPhotoVC. If you want to interact with 7688. Make sure 7688 and iPad in the same subnet that iPad can find 7688 otherwise it don't work.
 
 
 ## Contributors
