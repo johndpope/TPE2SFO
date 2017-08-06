@@ -15,7 +15,7 @@
 - You can take another photo to detect. Finally, select "Complete the process" to see the detected list.
 
 ## Setup linkit 7688 
-I disable the interaction between iPad and 7688 (line:107 and line:111 in GetPhotoVC). If you want to interact with 7688, make sure 7688 and iPad in the same subnet that iPad can find 7688. Otherwise, it won't work.
+I disable the interaction between iPad and 7688 (line:107 and line:111 in GetPhotoVC). If you want to interact with 7688, make sure that 7688 and iPad are in the same subnet. that iPad can find 7688. Otherwise, it won't work.
 
 
 ## Contributors
