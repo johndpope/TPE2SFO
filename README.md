@@ -26,4 +26,4 @@ I disable the interaction between iPad and 7688 (line:107 and line:111 in GetPho
 - 郭軒騏 Hsuan-Chi Kuo
 ## Lincese 
 
-- The Mit Lincese
+- MIT Lincese
